@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <h2>Por favor, complete los campos</h2>
+            <label for="nombre">Nombre:</label> <!--Se usa la etiqueta label para los input-->
+            <input id="nombre" type="text">
+        </div>
+        <div>
+            <label for="superHeroe">Super Heroe Favorito</label>
+            <select id="superHeroe">
+            <option value="">IronMan</option>
+            <option value="">Capitan America</option>
+            <option value="">Deadpool</option>
+            <option value="">Spiderman</option>
+        </select>
+        </div>
+        <div>
+            <label>¿Te gusta Harry Potter?</label>
+            <input name="harryPotter" id="si" type="radio">
+            <label id="si">Si</label>
+            <input name="harryPotter" id="no" type="radio">
+            <label for="no">No</label>
+        </div>
+        <div>
+            <label for="descripcion">Describi como te sentis</label>
+        </div>
+        <div>
+            <textarea id="descripcion" cols="30" rows="10"></textarea>
+        </div>
+            
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
