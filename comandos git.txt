@@ -1,0 +1,4 @@
+git status
+git add. //agrega todos los archivos
+git commit -m "" // se agrega un comentario a lo que se esta por subir
+git push -u origin master // se sube todos los archivos elegidos a la nube de la rama principal
