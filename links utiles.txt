@@ -1,0 +1,8 @@
+https://developer.mozilla.org/es/docs/Web/CSS/position
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/ //Flexbox
+Practicar Flexbox{
+		https://flexboxfroggy.com/#es
+		https://flexboxfroggy.com/#es
+		http://www.flexboxdefense.com/		
+}
+https://cssgenerator.org/box-shadow-css-generator.html // Bloxshadow Generator
