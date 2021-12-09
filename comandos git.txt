@@ -2,3 +2,5 @@ git status
 git add. //agrega todos los archivos
 git commit -m "" // se agrega un comentario a lo que se esta por subir
 git push -u origin master // se sube todos los archivos elegidos a la nube de la rama principal
+git checkout dev // te posiciona en el branch
+git checkout -b nombre // crea un branch y te posiciona en el
