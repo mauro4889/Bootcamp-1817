@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+.container{
+    width: 90%;
+    border-radius: 0.5em;
+    background-color: antiquewhite;
+    margin: 10% auto;
+    background-color: white;
+    padding-bottom: 5%;
+    box-shadow: 10px 0px 59px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px -1px 59px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px -1px 59px 0px rgba(0,0,0,0.75);
+}
+.header-container{
+    width: 100%;
+    background-color: #203774;
+    border-radius: 0.5em 0.5em 0 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.header-container h2{
+    margin-left: 8%;
+    font-size: 120%;
+    font-weight: lighter;
+}
+.header-container button{
+    border: none;
+    background-color: #203774;
+    color: white;
+    font-size: 100%;
+    border-radius: 0.5em 0.5em 0 0;
+    margin-right: 5%;
+}
+.date-container{
+    display: flex;
+    justify-content: center;
+}
+.btn-left{
+    transform: rotate(180deg);
+}
+.date-container button{
+    border: none;
+    background-color: white;
+    transition: background 0.5s 0 ease;
+}
+.date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 5%;
+}
+.fecha{
+    font-size: 140%;
+    font-weight: bolder;
+}
+.info-container{
+    width: 90%;
+    background-color: #203774;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 0.5em;
+}
+.turno{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.tipo-turno{
+    width: 60%;
+    color: white;
+}
+.tipo-turno p{
+    font-size: 80%;
+}
+.turno input{
+    width: 40%;
+    height: 3em;
+    border: none;
+    border-radius: 0.3em;
+    font-size: 70%;
+    transition: background 0.5s 0s ease;
+}
+.profesional-container{
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+.profesional-container span{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.profesional-container span img{
+    width: 10%;
+    height: 1.4em;
+    border-radius: 50%;
+    border: solid #4868BD 3px;    
+}
+.c2{
+    margin-top: 5%;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    background-color: gray;
+}
+input:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+@media (min-width: 426px){
+    .container{
+        width: 60%;
+    }
+}
+@media (min-width: 769px){
+    .container{
+        height: 39em;
+        border-radius: 1em;
+    }
+    .header-container{
+        height: 15%;
+        border-radius: 1em 1em 0 0;
+    }
+    .header-container h2{
+        font-size: 200%;
+    }
+    .header-container button{
+        font-size: 150%;
+    }
+    .date-container{
+        margin: 5% auto;
+    }
+    .date-container button{
+        font-size: 150%;
+    }
+    .fecha{
+        font-size: 200%;
+        font-weight: 900;
+    }
+    .day{
+        font-size: 120%;
+        font-weight: bolder;
+        margin-top: 5%;
+    }
+    .info-container{
+        width: 70%;
+        height: 12em;
+    }
+    .tipo-turno h3{
+        font-size: x-large;
+        font-weight: bolder;
+    }
+    .tipo-turno p{
+        font-size: large;
+    }
+    .info-container input{
+        width: 30%;
+        font-size: medium;
+        font-weight: bolder;
+    }
+    .profesional-container span img{
+        width: 2.5em;
+        height: 2.5em;
+    }
+    .profesional-container span p{
+        margin-left: 5%;
+    }
+}
+@media (min-width: 1025px){
+    .container{
+        margin-top: 3%;
+        height: 48em;
+    }
+    .date-container button{
+        font-size: 200%;
+    }
+    .fecha{
+        font-size: 250%;
+    }
+    .day{
+        font-size: x-large;
+    }
+    .info-container{
+        width: 60%;
+        border-radius: 1em;
+        height: 14em;
+    }
+    .tipo-turno h3{
+        font-size: xx-large;
+    }
+    .tipo-turno p{
+        font-size: x-large;
+    }
+    .profesional-container span img{
+        width: 3em;
+        height: 3em;
+    }
+    .profesional-container p{
+        font-size: x-large;
+    }
+}
